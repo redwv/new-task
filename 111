@@ -1,0 +1,18 @@
+class Restaurant():
+    def __init__(self, a, b):
+        self.a=a
+        self.b=b
+
+    def des(self):
+        print(rest.a, rest.b)
+        
+    def open_r(self):
+        return ("ресторан открыт")
+    
+rest = Restaurant("сапоре","не веган")
+rest.des()
+print(rest.open_r())
+
+rest = Restaurant("колючка", "веган")
+rest.des()
+print(rest.open_r())
